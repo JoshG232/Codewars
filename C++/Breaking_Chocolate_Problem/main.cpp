@@ -3,8 +3,12 @@
 using namespace std;
 
 int break_chocolate(int n, int m){
-    cout << n*m-1 << endl;
-    return n*m-1;
+    if (n*m == 0){
+        return 0;
+    } else {
+        return n*m-1;
+    }
+
 }
 
 int main()
